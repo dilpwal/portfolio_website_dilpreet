@@ -7,39 +7,45 @@ Secondary Color (Light teel): #2F666D;
 Secondary Color (Blue): #93DDEF
 Secondary Color (Gray): #F0EDEE
 */
-
 /* typography */
 body {
-font-family: 'Lato', serif;
-font-size: 16px;
-font-weight: 300;
-font-style: normal;
-line-height: 1.6;
-color: #0A090C;
+  font-family: 'Lato', serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.6;
+  color: #0A090C;
 }
+
 h1, h2, h3, h4 {
   line-height: 1.4;
 }
+
 h1 {
   font-size: 2em;
   font-weight: 900;
 }
+
 h2 {
   font-size: 1.5em;
   font-weight: 400;
 }
+
 h3 {
   font-size: 1.5em;
   font-weight: 400;
 }
+
 h4 {
   font-size: 1.25em;
   font-weight: 400;
 }
+
 h5 {
   font-size: 1em;
   font-weight: 300;
 }
+
 header {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -47,47 +53,56 @@ header {
   font-style: normal;
   line-height: 1.6;
   color: #0A090C;
-  }
-  main {
-font-family: 'Lora', serif;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.6;
-    color: #0A090C;
-    }
-    footer {
-      font-family: 'Lora', sans-serif;
-      font-size: 16px;
-      font-weight: 400;
-      font-style: normal;
-      line-height: 1.6;
-      color: #0A090C;
-      }
+}
+
+main {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  color: #0A090C;
+}
+
+footer {
+  font-family: 'Lora', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+  color: #0A090C;
+}
+
 /* image */
 img {
-  max-width: 100%;
+  width: 100%;
 }
+
 /* links and buttons */
 a {
   color: #040B5C;
   text-decoration: none;
 }
+
 a:hover {
   color: #040B5C;
   text-decoration: underline;
 }
+
 a:visited {
   color: #040B5C;
 }
+
 a:active {
   color: #040B5C;
 }
+
 a:hover,
 a:focus {
   color: #1178B3;
   text-decoration: underline;
 }
+
 .button {
   display: inline-block;
   background-color: #ffffff;
@@ -98,18 +113,22 @@ a:focus {
   border: 2px solid #040B5C;
   transition: 0.2s opacity;
 }
-  .button:visited {
-    background-color: #ffffff;
-    color: #040B5C;
-  }
-  .button:hover {
-    background-color: #040B5C;
-    color: #ffffff;
-  }
-  .button:active {
-    background-color: #ffffff;
-    color: #040B5C;
-  }
+
+.button:visited {
+  background-color: #ffffff;
+  color: #040B5C;
+}
+
+.button:hover {
+  background-color: #040B5C;
+  color: #ffffff;
+}
+
+.button:active {
+  background-color: #ffffff;
+  color: #040B5C;
+}
+
 .button.contact {
   display: inline-block;
   background-color: #ffffff;
@@ -120,18 +139,22 @@ a:focus {
   border: 2px solid #040B5C;
   transition: 0.2s opacity;
 }
+
 .button.contact:hover {
   background-color: #040B5C;
   color: #ffffff;
 }
+
 .button.contact:visited {
   background-color: #ffffff;
   color: #040B5C;
 }
+
 .button.contact:hover {
   background-color: #040B5C;
   color: #ffffff;
 }
+
 .button.contact:active {
   background-color: #ffffff;
   color: #040B5C;
