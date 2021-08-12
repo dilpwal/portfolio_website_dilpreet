@@ -5,7 +5,8 @@ Primary Color (Dark blue): 040B5C
 Secondary Color (Dark teel): #0A393C
 Secondary Color (Light teel): #2F666D;
 Secondary Color (Blue): #93DDEF
-Secondary Color (Gray): #F0EDEE
+Secondary Color (Ice Gray): #FAFAFA
+Secondary color (yellow): #F8D210
 */
 /* typography */
 body {
@@ -158,4 +159,51 @@ a:focus {
 .button.contact:active {
   background-color: #ffffff;
   color: #040B5C;
+}
+/* Layout styling */
+header {
+  background-color: #FAFAFA;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px 0 #e0e0e0;
+    position: relative;
+}
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+#hero {
+  background-color: #FAFAFA;
+}
+#hero {
+  background-color: #FAFAFA;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+.logo {
+  max-width: 250px;
+  text-align: center;
+}
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav > ul > li {
+  display: inline-block;
+  width: 100%;
+}
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #040B5C;
+}
+main {
+  padding-top: 133px;
 }
