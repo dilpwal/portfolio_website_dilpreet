@@ -8,10 +8,13 @@ Secondary Color (Blue): #93DDEF
 Secondary Color (Ice Gray): #FAFAFA
 Secondary color (yellow): #F8D210
 */
+* {
+  box-sizing: border-box;
+}
 /* typography */
 body {
   font-family: 'Lato', serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.6;
@@ -163,7 +166,7 @@ a:focus {
 /* Layout styling */
 header {
   background-color: #FAFAFA;
-    text-align: center;
+    text-align: unset;
     padding: 10px 0;
     box-shadow: 0 2px 4px 0 #e0e0e0;
     position: relative;
@@ -176,6 +179,9 @@ header {
 }
 #hero h1 {
   text-align: center; /* Centers text */
+}
+#hero span { /* For the intro line */
+  display: block;
 }
 #hero {
   background-color: #FAFAFA;
@@ -196,7 +202,6 @@ nav > ul {
 }
 nav > ul > li {
   display: inline-block;
-  width: 100%;
 }
 nav > ul > li > a:visited {
   padding: 0 15px;
@@ -205,5 +210,35 @@ nav > ul > li > a:visited {
   color: #040B5C;
 }
 main {
-  padding-top: 133px;
+  padding-top: 99px;
+}
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 10px;
+  }
+}
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
 }
